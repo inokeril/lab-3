@@ -134,7 +134,7 @@ public class GornerTableFrame extends JFrame {
         Action showInfoAction = new AbstractAction("О программе") {
             @Override
             public void actionPerformed(ActionEvent e) {
-                ImageIcon icon = new ImageIcon(new ImageIcon(GornerTableFrame.class.getResource("icon.jpg")).getImage().getScaledInstance(240, 200, Image.SCALE_DEFAULT));
+                ImageIcon icon = new ImageIcon(new ImageIcon(GornerTableFrame.class.getResource("myphoto.jpg")).getImage().getScaledInstance(240, 200, Image.SCALE_DEFAULT));
                 JOptionPane.showMessageDialog(GornerTableFrame.this, "Самусевич Кирилл \n10 группа \nДля связи tg:i_no_keril", "Справка", JOptionPane.PLAIN_MESSAGE, icon);
             }
         };
